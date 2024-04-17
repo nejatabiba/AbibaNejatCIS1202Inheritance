@@ -9,6 +9,8 @@
 #include "Truck.h"
 
 Vehicle getVehicleInfo();
+Car getCarInformation();
+Truck getTruckInformation();
 
 int main()
 {
