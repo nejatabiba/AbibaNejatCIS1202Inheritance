@@ -1,4 +1,11 @@
-#pragma once
+//Nejat Abiba
+//CIS 1201 800
+//April 16th, 2024
+
+#ifndef CAR_H
+#define CAR_H
+
+
 #include "Vehicle.h"
 
 
@@ -17,3 +24,5 @@ class Car:Vehicle {
 		void displayInfo();
 
 };
+
+#endif

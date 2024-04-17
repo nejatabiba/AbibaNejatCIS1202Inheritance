@@ -1,4 +1,10 @@
-#pragma once
+//Nejat Abiba
+//CIS 1201 800
+//April 16th, 2024
+
+#ifndef VEHICLE_H
+#define VEHICLE_H
+
 #include <string>
 
 using namespace std;
@@ -22,3 +28,5 @@ class Vehicle {
 	
 		void displayInfo();
 };
+
+#endif

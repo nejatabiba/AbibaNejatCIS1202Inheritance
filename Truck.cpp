@@ -1,3 +1,7 @@
+//Nejat Abiba
+//CIS 1201 800
+//April 16th, 2024
+
 #include "Truck.h"
 #include <iostream>
 

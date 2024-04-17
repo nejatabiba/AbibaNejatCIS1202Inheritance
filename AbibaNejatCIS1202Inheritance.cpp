@@ -1,5 +1,6 @@
-// AbibaNejatCIS1202Inheritance.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
+//Nejat Abiba
+//CIS 1201 800
+//April 16th, 2024
 
 #include <iostream>
 #include "Validation.h"
