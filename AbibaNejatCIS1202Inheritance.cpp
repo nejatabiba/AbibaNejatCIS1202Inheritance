@@ -14,23 +14,29 @@ Truck getTruckInformation();
 
 int main()
 {
-    cout << "Vehicle Program" << endl << endl << endl;
+    cout << "Vehicle Program" << endl << endl;
+    
+    cout << "Vehicle:" << endl;
     Vehicle vehicle = getVehicleInfo();
     vehicle.displayInfo();
+    cout << endl;
 
+    cout << "Car:" << endl;
     Car car = getCarInformation();
     car.displayInfo();
+    cout << endl;
 
+    cout << "Truck:" << endl;
     Truck truck = getTruckInformation();
     truck.displayInfo();
+    cout << endl;
 }
 
 Vehicle getVehicleInfo() {
     string manufacturer;
     int year;
     
-    cout << "Vehicle: " << endl <<
-            "Enter the manufacturer: ";
+    cout << "Enter the manufacturer: ";
     getline(cin, manufacturer);
 
     cout << "Enter the year built: ";
