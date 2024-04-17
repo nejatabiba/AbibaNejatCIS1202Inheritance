@@ -7,8 +7,6 @@ Vehicle::Vehicle() {
 }
 
 Vehicle::Vehicle(string manufacturerName, int year) {
-	cout << "Parents class called with: " << manufacturerName << " " << year << endl;
-	
 	this->manufacturer = manufacturerName;
 	this->yearBuilt = year;
 }
@@ -30,6 +28,7 @@ void Vehicle::setYearBuilt(int year) {
 }
 
 void Vehicle::displayInfo() {
-	cout << "Manufacturer: " << manufacturer << endl <<
+	cout << "Vehicle Information:" << endl <<
+		"Manufacturer: " << manufacturer << endl <<
 		"Year: " << yearBuilt << endl;
 }

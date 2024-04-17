@@ -130,11 +130,13 @@
     <ClCompile Include="AbibaNejatCIS1202Inheritance.cpp" />
     <ClCompile Include="Car.cpp" />
     <ClCompile Include="Truck.cpp" />
+    <ClCompile Include="Validation.cpp" />
     <ClCompile Include="Vehicle.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Car.h" />
     <ClInclude Include="Truck.h" />
+    <ClInclude Include="Validation.h" />
     <ClInclude Include="Vehicle.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
