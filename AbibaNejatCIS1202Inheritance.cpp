@@ -2,9 +2,12 @@
 //
 
 #include <iostream>
+#include "Car.h"
 
 int main()
 {
-    
+    Car car("Toyota", 1997, 4);
+
+    car.displayInfo();
 }
 
